@@ -21,7 +21,7 @@ A simple command-line tool to display system information including CPU, memory, 
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/system-info-tool.git
+git clone https://github.com/0xIntern4l/system-info-tool.git
 cd system-info-tool
 ```
 
@@ -34,5 +34,25 @@ pip install -r requirements.txt
 ```bash
 chmod +x main.py
 ```
+
+## 🔍 Usage
+
+```bash
+python main.py [options]
+```
+
+## ⚙️ Options
+
+- `-a, --all`: Show all system information
+- `-s, --system`: Show basic system information
+- `-c, --cpu`: Show CPU information
+- `-m, --memory`: Show memory information
+- `-d, --disk`: Show disk information
+- `-n, --network`: Show network information
+- `-p, --processes`: Show top processes
+- `--sort-by`: Sort processes by CPU or memory usage (default: memory)
+- `--limit`: Limit number of processes shown (default: 10)
+- `-o, --output`: Save output to file
+- `-j, --json`: Output in JSON format
 
 
