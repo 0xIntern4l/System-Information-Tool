@@ -17,4 +17,22 @@ A simple command-line tool to display system information including CPU, memory, 
 - Python 3.6 or higher
 - psutil library
 
+## 🚀 Installation
+
+1. Clone this repository:
+```bash
+git clone https://github.com/yourusername/system-info-tool.git
+cd system-info-tool
+```
+
+2. Install requirements:
+```bash
+pip install -r requirements.txt
+```
+
+3. Make the script executable (Unix/Linux/macOS):
+```bash
+chmod +x main.py
+```
+
 
