@@ -11,3 +11,10 @@ A simple command-line tool to display system information including CPU, memory, 
 - 🌐 View network interfaces and traffic statistics
 - 📋 List top processes by CPU or memory usage
 - 💾 Save information to JSON file for later analysis
+
+## 📋 Requirements
+
+- Python 3.6 or higher
+- psutil library
+
+
