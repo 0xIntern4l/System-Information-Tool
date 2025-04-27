@@ -55,4 +55,35 @@ python main.py [options]
 - `-o, --output`: Save output to file
 - `-j, --json`: Output in JSON format
 
+## 📝 Examples
+
+### Show basic system information:
+```bash
+python main.py
+```
+
+### Show all system information:
+```bash
+python main.py -a
+```
+
+### Show only CPU and memory information:
+```bash
+python main.py -c -m
+```
+
+### Show top 5 processes by CPU usage:
+```bash
+python main.py -p --sort-by cpu --limit 5
+```
+
+### Save all information to a JSON file:
+```bash
+python main.py -a -o system_info.json
+```
+
+### Output in JSON format:
+```bash
+python main.py -s -c -j
+```
 
