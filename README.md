@@ -87,3 +87,11 @@ python main.py -a -o system_info.json
 python main.py -s -c -j
 ```
 
+## 💡 Tips
+
+- Run the tool with `-a` for a comprehensive system overview
+- The output format can be changed to JSON using the `-j` option
+- Save information to a file with `-o` for historical tracking
+- You can combine options to get just the information you need
+- The network and process information is especially useful for troubleshooting
+
