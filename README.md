@@ -95,3 +95,6 @@ python main.py -s -c -j
 - You can combine options to get just the information you need
 - The network and process information is especially useful for troubleshooting
 
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
